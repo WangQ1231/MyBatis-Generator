@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<db name="db10" driverName="com.mysql.jdbc.Driver" userName="root" passWord="root" url="jdbc:mysql://127.0.0.1:3306/db10?characterEncoding=UTF8">
+  <property name="databaseTYPE">MYSQL</property>
+  <property name="dialect">org.hibernate.dialect.MySQLInnoDBDialect</property>
+  <property name="generator">&lt;![CDATA[&lt;generator class="native"&gt;&lt;/generator&gt;]]&gt;</property>
+  <property name="driverName">com.mysql.jdbc.Driver</property>
+  <property name="url">jdbc:mysql://127.0.0.1:3306/db10?characterEncoding=UTF8</property>
+  <table name="emp" name2="emp" comment="" key="id" key2="id" Key2="Id" keyType="Long">
+    <column name="id" name2="id" type="Long" dbtype="BIGINT" comment="" key="PRI" decimal_digits="0" colums_size="19"/>
+    <column name="name" name2="name" type="String" dbtype="VARCHAR" comment="" key="" decimal_digits="0" colums_size="50"/>
+    <column name="gender" name2="gender" type="String" dbtype="CHAR" comment="" key="" decimal_digits="0" colums_size="1"/>
+    <column name="birthday" name2="birthday" type="java.util.Date" dbtype="DATE" comment="" key="" decimal_digits="0" colums_size="10"/>
+    <column name="dept" name2="dept" type="String" dbtype="VARCHAR" comment="" key="" decimal_digits="0" colums_size="50"/>
+    <column name="job" name2="job" type="String" dbtype="VARCHAR" comment="" key="" decimal_digits="0" colums_size="50"/>
+    <column name="sal" name2="sal" type="Double" dbtype="DOUBLE" comment="" key="" decimal_digits="0" colums_size="22"/>
+    <column name="bonus" name2="bonus" type="Double" dbtype="DOUBLE" comment="" key="" decimal_digits="0" colums_size="22"/>
+  </table>
+  <table name="user" name2="user" comment="" key="id" key2="id" Key2="Id" keyType="Long">
+    <column name="id" name2="id" type="Long" dbtype="BIGINT" comment="" key="PRI" decimal_digits="0" colums_size="19"/>
+    <column name="name" name2="name" type="String" dbtype="VARCHAR" comment="" key="" decimal_digits="0" colums_size="32"/>
+    <column name="age" name2="age" type="Integer" dbtype="INT" comment="" key="" decimal_digits="0" colums_size="10"/>
+  </table>
+</db>

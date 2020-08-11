@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <map key="path_3" value="mkcode"/>
+  <map key="package" value="com.wq.mkcode"/>
+  <map key="path_2" value="wq"/>
+  <map key="dbpassword" value="root"/>
+  <map key="author" value=""/>
+  <map key="projectComment" value=""/>
+  <map key="project" value="56"/>
+  <map key="dbuser" value="root"/>
+  <map key="path_1" value="com"/>
+  <map key="db" value="db10"/>
+  <map key="path_all" value="com/wq/mkcode"/>
+</root>
